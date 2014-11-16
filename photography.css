@@ -83,20 +83,20 @@ table {
          url('2-Questa_Grande_Regular-webfont.svg#questa_granderegular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
     background-size: 100% 100%;
     background-color: black;
 }
+
 body {
 	font-family: helvetica, sans-serif;
 	font-size: small;
-	color: blue;
+	color: black;
 	background-color: black;
 	margin: 50px 50px 30px 50px;
-	line-height: 1.5em;
+	line-height: 2em;
 }
 
 nav {
@@ -106,7 +106,7 @@ nav {
     width: 100%;
     text-transform: uppercase;
     height: 45px;
-    margin-bottom: 200px;
+    margin-bottom: 475px;
 }
 
 nav ul {
@@ -119,6 +119,7 @@ nav li {
 	float: left;
 	margin-right: 50px;
 	padding: 10px;
+	color: #FF85AD;
 }
 
 nav li a {
@@ -126,6 +127,7 @@ nav li a {
 	padding: .5em;
 	text-decoration: none;
 	padding: 0;
+	
 }
 
 nav li a:hover {
@@ -162,14 +164,14 @@ nav li li {
 }
 
 p {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 img {width: 100%;}
 
 table {
   position: absolute;
-  left: 200px;
+  left: 230px;
   top: 50px;
   max-height: 500px;
   width: 10000px;
@@ -201,10 +203,11 @@ a {
 	text-decoration: none;	
 }
 
-
     
 footer {
-	padding: 100px 0px 0px 0px;
-	text-align: center;
+	position: absolute;
+	top: 550px;
 	clear: both;
+	font-size: .75em;
+	padding-left: 20px;
 }

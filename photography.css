@@ -93,10 +93,9 @@ html {
 body {
 	font-family: helvetica, sans-serif;
 	font-size: small;
-	color: white;
+	color: blue;
 	background-color: black;
-	margin: 30px 50px 30px 50px;
-	padding: 10px;
+	margin: 50px 50px 30px 50px;
 	line-height: 1.5em;
 }
 
@@ -107,7 +106,7 @@ nav {
     width: 100%;
     text-transform: uppercase;
     height: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
 }
 
 nav ul {
@@ -151,27 +150,15 @@ nav li li {
 	margin: 0;
 }
 
-header {
-	font-family:'questa_granderegular', serif;
-	text-align: center;
-	font-size: 3em;
-	font-weight: bold;
-	color: white;
-	text-transform: uppercase;
-	/*letter-spacing: 6px;*/
-	padding: 5px 0px 20px 30px;
-}
-
-/*.blog {
-	float: left;
-	width: 800px;
-	margin-right: 10px;
-}*/
 
 .sidebar {
+	position: fixed;
 	float: left;
 	width: 200px;
-	margin-bottom: 10px;
+	z-index: 1;
+	background-color: white;
+	opacity: 0.8;
+	
 }
 
 p {
@@ -182,10 +169,11 @@ img {width: 100%;}
 
 table {
   position: absolute;
-  left: 300px;
-  top: 200px;
+  left: 200px;
+  top: 50px;
+  max-height: 500px;
   width: 10000px;
-  
+ 
 }
 td {
 	padding-left: 20px;
@@ -196,10 +184,9 @@ td {
 
 h3 {
 	font-family:'questa_granderegular', serif;
-	color: #7A7A7A;
+	color: black;
 	font-size: 2em;
-	padding: 20px 0px 5px 0px;
-	border-bottom: 1px solid black;
+	padding: 20px 0px 5px 20px;
 }
 
 .caption, em {

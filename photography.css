@@ -48,15 +48,53 @@ table {
 }
 /* end of reset border: 3px solid #e1a9df;*/
 
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      The Questa Project
+ * License URL: http://www.fontspring.com/licenses/the-questa-project/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'questa_granderegular';
+    src: url('2-Questa_Grande_Regular-webfont.eot');
+    src: url('2-Questa_Grande_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('2-Questa_Grande_Regular-webfont.woff2') format('woff2'),
+         url('2-Questa_Grande_Regular-webfont.woff') format('woff'),
+         url('2-Questa_Grande_Regular-webfont.ttf') format('truetype'),
+         url('2-Questa_Grande_Regular-webfont.svg#questa_granderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     background-size: 100% 100%;
+    background-color: black;
 }
 body {
 	font-family: helvetica, sans-serif;
 	font-size: small;
-	color: black;
-	background-color: white;
-	width: 1025px;
+	color: white;
+	background-color: black;
 	margin: 30px 50px 30px 50px;
 	padding: 10px;
 	line-height: 1.5em;
@@ -114,24 +152,24 @@ nav li li {
 }
 
 header {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family:'questa_granderegular', serif;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	font-weight: bold;
-	color: #595959;
+	color: white;
 	text-transform: uppercase;
-	letter-spacing: 6px;
+	/*letter-spacing: 6px;*/
 	padding: 5px 0px 20px 30px;
 }
 
-.blog {
+/*.blog {
 	float: left;
 	width: 800px;
 	margin-right: 10px;
-}
+}*/
 
 .sidebar {
-	float: right;
+	float: left;
 	width: 200px;
 	margin-bottom: 10px;
 }
@@ -140,12 +178,24 @@ p {
 	margin-top: 10px;
 }
 
-img {
-	width: 100%;
-	}
+img {width: 100%;}
+
+table {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  width: 10000px;
+  
+}
+td {
+	padding-left: 20px;
+	padding-right: 20px;
+  	overflow: scroll;
+}
+	
 
 h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family:'questa_granderegular', serif;
 	color: #7A7A7A;
 	font-size: 2em;
 	padding: 20px 0px 5px 0px;

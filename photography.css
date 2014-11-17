@@ -167,29 +167,41 @@ p {
 	margin-top: 5px;
 }
 
+td p {
+	color: white;}
+
 img {width: 100%;}
 
 table {
   position: absolute;
   left: 230px;
   top: 50px;
-  max-height: 500px;
   width: 10000px;
  
 }
+
+
 td {
 	padding-left: 20px;
 	padding-right: 20px;
   	overflow: scroll;
 }
-	
 
-h3 {
+.favorite td:nth-child(1), .favorite td:nth-child(5), .favorite td:nth-child(9)
+ {
+  width: 3%;
+}
+h3 {font-family:'questa_granderegular', serif;
+	color: black;
+	font-size: 2em;}	
+
+.sidebar h3 {
 	font-family:'questa_granderegular', serif;
 	color: black;
 	font-size: 2em;
 	padding: 20px 0px 5px 20px;
 }
+
 
 .caption, em {
 	font-style: oblique;

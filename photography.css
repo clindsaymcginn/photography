@@ -107,7 +107,7 @@ nav {
     width: 100%;
     text-transform: uppercase;
     height: 45px;
-    margin-bottom: 475px;
+    margin-bottom:300px;
 }
 
 nav ul {
@@ -166,7 +166,11 @@ nav li li {
 
 p {
 	margin-top: 5px;
+	line-height: 1em;
 }
+.sidebar p
+	{padding-left: 20px;
+	padding-right: 10px;}
 
 td p {
 	color: white;}
@@ -178,7 +182,6 @@ table {
   left: 230px;
   top: 50px;
   width: 10000px;
- 
 }
 
 
@@ -192,14 +195,18 @@ td {
  {
   width: 3%;
 }
+
+.inspiration td:nth-child(1), .inspiration td:nth-child(4), .inspiration td:nth-child(7)
+ {
+  width: 3%;
+}
+
 h3 {font-family:'questa_granderegular', serif;
 	color: black;
 	font-size: 2em;}	
 
 .sidebar h3 {
-	font-family:'questa_granderegular', serif;
-	color: black;
-	font-size: 2em;
+	
 	padding: 20px 0px 5px 20px;
 }
 
